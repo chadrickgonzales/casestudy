@@ -10,4 +10,27 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .header {
+    background-color: #415C81;
+    color: #FBF5F2;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0; 
+    font-size: 19.2px; 
+  }
   
+  .navbar {
+    background-color: #fff7f0;
+    color: #2B1506;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0; 
+    font-size: 19.2px; 
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19.2px; 
+    margin: 0 20px; 
+  }
