@@ -8,3 +8,116 @@ body {
     margin: 0;
     overflow: hidden;
 }
+.container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: left;
+    position: relative;
+}
+
+.service-title {
+    font-size: 90px;
+    color: #F8E71C;
+    margin: 20px 0;
+    position: relative;
+    margin-left: 40px;
+    
+}
+
+
+
+.subtitle {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+
+.line2 {
+    border-top: 1px solid #F8E71C; /* Adds a yellow line at the top */
+}
+
+
+.custom-line {
+    border: none;
+    border-top: 1px solid #F8E71C; /* Yellow line */
+    margin: 10px -40px;
+    width: 920px; /* Adjusts spacing around the line */
+}
+
+.line2 {
+    border-top: 1px solid #F8E71C; /* Adds a yellow line at the top */
+}
+
+
+.custom-line2 {
+    border: none;
+    border-top: 1px solid #F8E71C; /* Yellow line */
+    margin: 10px -40px;
+    width: 400px; /* Adjusts spacing around the line */
+}
+
+
+
+.vertical-line {
+    width: 1px; /* Set the width of the line */
+    height: 400px; /* Set the height of the line */
+    background-color: #F8E71C; /* Set the color of the line */
+    margin: -200px 0; /* Adjusts spacing around the line */
+}
+
+
+.vertical-line2 {
+    width: 1px; /* Set the width of the line */
+    height: 600px; /* Set the height of the line */
+    background-color: #F8E71C; /* Set the color of the line */
+    margin: -400px -10px; /* Adjusts spacing around the line */
+}
+
+
+
+.cards {
+    
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
+   
+    padding: 10px 0;
+}
+
+.card {
+    
+    border-radius: 10px;
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+    min-width: 400px;
+    
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.photo {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-bottom: 10px;
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 10px 18px 10px rgba(0, 0, 0, 0.829);
+}
+
+
+.description {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F8E71C;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+}
