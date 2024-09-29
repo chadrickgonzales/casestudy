@@ -34,3 +34,81 @@
     font-size: 19.2px; 
     margin: 0 20px; 
   }
+
+  .container {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+  }
+  
+  
+  .service-card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19.2px; 
+    margin: 0 20px; 
+  }
+  
+  h1 {
+    font-size: 80px;
+    color: #2B1506;
+    letter-spacing: 1.6px; 
+  }
+  
+  p {
+    font-size: 24px; 
+    color: #000000;
+    margin-top: 16px; 
+  }
+  
+  
+  
+  
+  .services-section {
+    background-color: #2B1506;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Service Cards */
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #FBF5F2;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    background-color: #e39c85; /* Hover color from the image */
+    opacity: 1;
+  }
+  
+  .service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #C2492F;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #354065;
+  }
