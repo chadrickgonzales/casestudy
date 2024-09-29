@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Jersey25', 'Courier New', Courier, monospace;
+    background-color: #fff7f0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
